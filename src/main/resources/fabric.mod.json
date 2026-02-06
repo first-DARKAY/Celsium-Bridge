@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "celsium",
+  "version": "1.0.6",
+  "name": "Celsium Bridge",
+  "description": "Layer di sincronizzazione avanzato per Sodium, Lithium e Krypton.",
+  "license": "MIT",
+  "icon": "assets/celsium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.celsium.bridge.CelsiumMod"
+    ]
+  },
+  "mixins": [
+    "celsium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "sodium": "*"
+  }
+}
